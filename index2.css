@@ -1,0 +1,93 @@
+body{
+    background-color: lightcoral;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contain{
+    margin-left: 450px;
+}
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background: lawngreen;
+}
+/* width 300px */
+.box1{
+    transition: transform 15s ;
+    transition: timing function 2px;
+    transition: width 3s ease-in;
+    
+}
+.box1:hover{
+    width: 300px;
+}
+
+/* width and height 300px */
+.box2{
+    transition: transform 15s ;
+    transition: timing function 2px;
+    transition: width 3s ease-in;
+    transition: height 3s ease-in;
+}
+.box2:hover{
+    width: 300px;
+    height: 300px
+}
+
+/* timeing fun liner */
+.box3{
+    transition: transform 15s ;
+    transition-timing-function: linear;
+    transition: width 3s ;
+}
+.box3:hover{
+    width: 300px;
+}
+
+.box4{
+    transition: transform 15s ;
+    transition-timing-function: ease;
+    transition: width 3s ;
+}
+.box4:hover{
+    width: 300px;
+}
+
+.box5{
+    transition: transform 15s ;
+    transition-timing-function: ease-in;
+    transition: width 3s ;
+}
+.box5:hover{
+    width: 300px;
+}
+
+.box6{
+    transition: transform 15s ;
+    transition-timing-function: ease-out;
+    transition: width 3s ;
+}
+.box6:hover{
+    width: 300px;
+}
+
+.box7{
+    transition: transform 15s ;
+    transition-timing-function: ease-in-out;
+    transition: width 3s ;
+}
+.box7:hover{
+    width: 300px;
+}
+
+a{
+    margin-left: 520px;
+    font-size: xx-large;
+    color: whitesmoke;
+}
